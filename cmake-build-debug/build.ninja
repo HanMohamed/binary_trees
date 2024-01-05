@@ -343,6 +343,153 @@ build 5-binary_tree_is_root: C_EXECUTABLE_LINKER__5-binary_tree_is_root_Debug CM
   TARGET_FILE = 5-binary_tree_is_root
   TARGET_PDB = 5-binary_tree_is_root.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-binary_tree_preorder
+
+
+#############################################
+# Order-only phony target for 6-binary_tree_preorder
+
+build cmake_object_order_depends_target_6-binary_tree_preorder: phony || CMakeFiles/6-binary_tree_preorder.dir
+
+build CMakeFiles/6-binary_tree_preorder.dir/6-main.c.o: C_COMPILER__6-binary_tree_preorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/6-main.c || cmake_object_order_depends_target_6-binary_tree_preorder
+  DEP_FILE = CMakeFiles/6-binary_tree_preorder.dir/6-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-binary_tree_preorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-binary_tree_preorder.dir
+
+build CMakeFiles/6-binary_tree_preorder.dir/6-binary_tree_preorder.c.o: C_COMPILER__6-binary_tree_preorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/6-binary_tree_preorder.c || cmake_object_order_depends_target_6-binary_tree_preorder
+  DEP_FILE = CMakeFiles/6-binary_tree_preorder.dir/6-binary_tree_preorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-binary_tree_preorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-binary_tree_preorder.dir
+
+build CMakeFiles/6-binary_tree_preorder.dir/0-binary_tree_node.c.o: C_COMPILER__6-binary_tree_preorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_6-binary_tree_preorder
+  DEP_FILE = CMakeFiles/6-binary_tree_preorder.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-binary_tree_preorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-binary_tree_preorder.dir
+
+build CMakeFiles/6-binary_tree_preorder.dir/binary_tree_print.c.o: C_COMPILER__6-binary_tree_preorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_6-binary_tree_preorder
+  DEP_FILE = CMakeFiles/6-binary_tree_preorder.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-binary_tree_preorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-binary_tree_preorder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-binary_tree_preorder
+
+
+#############################################
+# Link the executable 6-binary_tree_preorder
+
+build 6-binary_tree_preorder: C_EXECUTABLE_LINKER__6-binary_tree_preorder_Debug CMakeFiles/6-binary_tree_preorder.dir/6-main.c.o CMakeFiles/6-binary_tree_preorder.dir/6-binary_tree_preorder.c.o CMakeFiles/6-binary_tree_preorder.dir/0-binary_tree_node.c.o CMakeFiles/6-binary_tree_preorder.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/6-binary_tree_preorder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-binary_tree_preorder
+  TARGET_PDB = 6-binary_tree_preorder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7-binary_tree_inorder
+
+
+#############################################
+# Order-only phony target for 7-binary_tree_inorder
+
+build cmake_object_order_depends_target_7-binary_tree_inorder: phony || CMakeFiles/7-binary_tree_inorder.dir
+
+build CMakeFiles/7-binary_tree_inorder.dir/7-main.c.o: C_COMPILER__7-binary_tree_inorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/7-main.c || cmake_object_order_depends_target_7-binary_tree_inorder
+  DEP_FILE = CMakeFiles/7-binary_tree_inorder.dir/7-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/7-binary_tree_inorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/7-binary_tree_inorder.dir
+
+build CMakeFiles/7-binary_tree_inorder.dir/7-binary_tree_inorder.c.o: C_COMPILER__7-binary_tree_inorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/7-binary_tree_inorder.c || cmake_object_order_depends_target_7-binary_tree_inorder
+  DEP_FILE = CMakeFiles/7-binary_tree_inorder.dir/7-binary_tree_inorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/7-binary_tree_inorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/7-binary_tree_inorder.dir
+
+build CMakeFiles/7-binary_tree_inorder.dir/0-binary_tree_node.c.o: C_COMPILER__7-binary_tree_inorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_7-binary_tree_inorder
+  DEP_FILE = CMakeFiles/7-binary_tree_inorder.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/7-binary_tree_inorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/7-binary_tree_inorder.dir
+
+build CMakeFiles/7-binary_tree_inorder.dir/binary_tree_print.c.o: C_COMPILER__7-binary_tree_inorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_7-binary_tree_inorder
+  DEP_FILE = CMakeFiles/7-binary_tree_inorder.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/7-binary_tree_inorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/7-binary_tree_inorder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7-binary_tree_inorder
+
+
+#############################################
+# Link the executable 7-binary_tree_inorder
+
+build 7-binary_tree_inorder: C_EXECUTABLE_LINKER__7-binary_tree_inorder_Debug CMakeFiles/7-binary_tree_inorder.dir/7-main.c.o CMakeFiles/7-binary_tree_inorder.dir/7-binary_tree_inorder.c.o CMakeFiles/7-binary_tree_inorder.dir/0-binary_tree_node.c.o CMakeFiles/7-binary_tree_inorder.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/7-binary_tree_inorder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 7-binary_tree_inorder
+  TARGET_PDB = 7-binary_tree_inorder.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8-binary_tree_postorder
+
+
+#############################################
+# Order-only phony target for 8-binary_tree_postorder
+
+build cmake_object_order_depends_target_8-binary_tree_postorder: phony || CMakeFiles/8-binary_tree_postorder.dir
+
+build CMakeFiles/8-binary_tree_postorder.dir/8-main.c.o: C_COMPILER__8-binary_tree_postorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/8-main.c || cmake_object_order_depends_target_8-binary_tree_postorder
+  DEP_FILE = CMakeFiles/8-binary_tree_postorder.dir/8-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-binary_tree_postorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-binary_tree_postorder.dir
+
+build CMakeFiles/8-binary_tree_postorder.dir/8-binary_tree_postorder.c.o: C_COMPILER__8-binary_tree_postorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/8-binary_tree_postorder.c || cmake_object_order_depends_target_8-binary_tree_postorder
+  DEP_FILE = CMakeFiles/8-binary_tree_postorder.dir/8-binary_tree_postorder.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-binary_tree_postorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-binary_tree_postorder.dir
+
+build CMakeFiles/8-binary_tree_postorder.dir/0-binary_tree_node.c.o: C_COMPILER__8-binary_tree_postorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_8-binary_tree_postorder
+  DEP_FILE = CMakeFiles/8-binary_tree_postorder.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-binary_tree_postorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-binary_tree_postorder.dir
+
+build CMakeFiles/8-binary_tree_postorder.dir/binary_tree_print.c.o: C_COMPILER__8-binary_tree_postorder_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_8-binary_tree_postorder
+  DEP_FILE = CMakeFiles/8-binary_tree_postorder.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-binary_tree_postorder.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-binary_tree_postorder.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8-binary_tree_postorder
+
+
+#############################################
+# Link the executable 8-binary_tree_postorder
+
+build 8-binary_tree_postorder: C_EXECUTABLE_LINKER__8-binary_tree_postorder_Debug CMakeFiles/8-binary_tree_postorder.dir/8-main.c.o CMakeFiles/8-binary_tree_postorder.dir/8-binary_tree_postorder.c.o CMakeFiles/8-binary_tree_postorder.dir/0-binary_tree_node.c.o CMakeFiles/8-binary_tree_postorder.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/8-binary_tree_postorder.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 8-binary_tree_postorder
+  TARGET_PDB = 8-binary_tree_postorder.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -377,7 +524,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder
 
 # =============================================================================
 # Built-in targets

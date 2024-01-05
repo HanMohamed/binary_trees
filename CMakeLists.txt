@@ -42,3 +42,21 @@ add_executable(5-binary_tree_is_root
         5-main.c
         5-binary_tree_is_root.c
         )
+add_executable(6-binary_tree_preorder
+        6-main.c
+        6-binary_tree_preorder.c
+        0-binary_tree_node.c
+        binary_tree_print.c
+        )
+add_executable(7-binary_tree_inorder
+        7-main.c
+        7-binary_tree_inorder.c
+        0-binary_tree_node.c
+        binary_tree_print.c
+        )
+add_executable(8-binary_tree_postorder
+        8-main.c
+        8-binary_tree_postorder.c
+        0-binary_tree_node.c
+        binary_tree_print.c
+        )

@@ -20,7 +20,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -40,7 +43,10 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8
 					]
 				}
 			],
@@ -86,6 +92,27 @@
 					"id" : "5-binary_tree_is_root::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-5-binary_tree_is_root-Debug-2e2db9a5decfcac2c394.json",
 					"name" : "5-binary_tree_is_root",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6-binary_tree_preorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6-binary_tree_preorder-Debug-c511b72525897546cd40.json",
+					"name" : "6-binary_tree_preorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7-binary_tree_inorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7-binary_tree_inorder-Debug-9cf281b2f980cc6d67e3.json",
+					"name" : "7-binary_tree_inorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "8-binary_tree_postorder::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-8-binary_tree_postorder-Debug-7a97fddadd3c0c8c81d3.json",
+					"name" : "8-binary_tree_postorder",
 					"projectIndex" : 0
 				}
 			]
