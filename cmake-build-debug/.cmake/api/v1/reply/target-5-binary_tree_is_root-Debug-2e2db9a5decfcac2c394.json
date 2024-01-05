@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "1-binary_tree_insert_left"
+			"path" : "5-binary_tree_is_root"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 38,
 				"parent" : 0
 			}
 		]
@@ -55,11 +55,12 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
-	"id" : "1-binary_tree_insert_left::@6890427a1f51a3e7e1df",
+	"id" : "5-binary_tree_is_root::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -75,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "1-binary_tree_insert_left",
-	"nameOnDisk" : "1-binary_tree_insert_left",
+	"name" : "5-binary_tree_is_root",
+	"nameOnDisk" : "5-binary_tree_is_root",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,24 +92,13 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
 	"sources" : 
 	[
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "1-main.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "1-binary_tree_insert_left.c",
-			"sourceGroupIndex" : 0
-		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
@@ -118,7 +108,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "2-binary_tree_insert_right.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "binary_tree_print.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "5-main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "5-binary_tree_is_root.c",
 			"sourceGroupIndex" : 0
 		}
 	],

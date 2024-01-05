@@ -233,6 +233,116 @@ build 3-binary_tree_delete: C_EXECUTABLE_LINKER__3-binary_tree_delete_Debug CMak
   TARGET_FILE = 3-binary_tree_delete
   TARGET_PDB = 3-binary_tree_delete.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-binary_tree_is_leaf
+
+
+#############################################
+# Order-only phony target for 4-binary_tree_is_leaf
+
+build cmake_object_order_depends_target_4-binary_tree_is_leaf: phony || CMakeFiles/4-binary_tree_is_leaf.dir
+
+build CMakeFiles/4-binary_tree_is_leaf.dir/4-binary_tree_is_leaf.c.o: C_COMPILER__4-binary_tree_is_leaf_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/4-binary_tree_is_leaf.c || cmake_object_order_depends_target_4-binary_tree_is_leaf
+  DEP_FILE = CMakeFiles/4-binary_tree_is_leaf.dir/4-binary_tree_is_leaf.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+
+build CMakeFiles/4-binary_tree_is_leaf.dir/0-binary_tree_node.c.o: C_COMPILER__4-binary_tree_is_leaf_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_4-binary_tree_is_leaf
+  DEP_FILE = CMakeFiles/4-binary_tree_is_leaf.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+
+build CMakeFiles/4-binary_tree_is_leaf.dir/2-binary_tree_insert_right.c.o: C_COMPILER__4-binary_tree_is_leaf_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_4-binary_tree_is_leaf
+  DEP_FILE = CMakeFiles/4-binary_tree_is_leaf.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+
+build CMakeFiles/4-binary_tree_is_leaf.dir/binary_tree_print.c.o: C_COMPILER__4-binary_tree_is_leaf_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_4-binary_tree_is_leaf
+  DEP_FILE = CMakeFiles/4-binary_tree_is_leaf.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+
+build CMakeFiles/4-binary_tree_is_leaf.dir/4-main.c.o: C_COMPILER__4-binary_tree_is_leaf_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/4-main.c || cmake_object_order_depends_target_4-binary_tree_is_leaf
+  DEP_FILE = CMakeFiles/4-binary_tree_is_leaf.dir/4-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-binary_tree_is_leaf
+
+
+#############################################
+# Link the executable 4-binary_tree_is_leaf
+
+build 4-binary_tree_is_leaf: C_EXECUTABLE_LINKER__4-binary_tree_is_leaf_Debug CMakeFiles/4-binary_tree_is_leaf.dir/4-binary_tree_is_leaf.c.o CMakeFiles/4-binary_tree_is_leaf.dir/0-binary_tree_node.c.o CMakeFiles/4-binary_tree_is_leaf.dir/2-binary_tree_insert_right.c.o CMakeFiles/4-binary_tree_is_leaf.dir/binary_tree_print.c.o CMakeFiles/4-binary_tree_is_leaf.dir/4-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/4-binary_tree_is_leaf.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-binary_tree_is_leaf
+  TARGET_PDB = 4-binary_tree_is_leaf.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5-binary_tree_is_root
+
+
+#############################################
+# Order-only phony target for 5-binary_tree_is_root
+
+build cmake_object_order_depends_target_5-binary_tree_is_root: phony || CMakeFiles/5-binary_tree_is_root.dir
+
+build CMakeFiles/5-binary_tree_is_root.dir/0-binary_tree_node.c.o: C_COMPILER__5-binary_tree_is_root_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_5-binary_tree_is_root
+  DEP_FILE = CMakeFiles/5-binary_tree_is_root.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-binary_tree_is_root.dir
+
+build CMakeFiles/5-binary_tree_is_root.dir/2-binary_tree_insert_right.c.o: C_COMPILER__5-binary_tree_is_root_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_5-binary_tree_is_root
+  DEP_FILE = CMakeFiles/5-binary_tree_is_root.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-binary_tree_is_root.dir
+
+build CMakeFiles/5-binary_tree_is_root.dir/binary_tree_print.c.o: C_COMPILER__5-binary_tree_is_root_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_5-binary_tree_is_root
+  DEP_FILE = CMakeFiles/5-binary_tree_is_root.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-binary_tree_is_root.dir
+
+build CMakeFiles/5-binary_tree_is_root.dir/5-main.c.o: C_COMPILER__5-binary_tree_is_root_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/5-main.c || cmake_object_order_depends_target_5-binary_tree_is_root
+  DEP_FILE = CMakeFiles/5-binary_tree_is_root.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-binary_tree_is_root.dir
+
+build CMakeFiles/5-binary_tree_is_root.dir/5-binary_tree_is_root.c.o: C_COMPILER__5-binary_tree_is_root_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/5-binary_tree_is_root.c || cmake_object_order_depends_target_5-binary_tree_is_root
+  DEP_FILE = CMakeFiles/5-binary_tree_is_root.dir/5-binary_tree_is_root.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-binary_tree_is_root.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-binary_tree_is_root
+
+
+#############################################
+# Link the executable 5-binary_tree_is_root
+
+build 5-binary_tree_is_root: C_EXECUTABLE_LINKER__5-binary_tree_is_root_Debug CMakeFiles/5-binary_tree_is_root.dir/0-binary_tree_node.c.o CMakeFiles/5-binary_tree_is_root.dir/2-binary_tree_insert_right.c.o CMakeFiles/5-binary_tree_is_root.dir/binary_tree_print.c.o CMakeFiles/5-binary_tree_is_root.dir/5-main.c.o CMakeFiles/5-binary_tree_is_root.dir/5-binary_tree_is_root.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/5-binary_tree_is_root.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 5-binary_tree_is_root
+  TARGET_PDB = 5-binary_tree_is_root.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -267,7 +377,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root
 
 # =============================================================================
 # Built-in targets
