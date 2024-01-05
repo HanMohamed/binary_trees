@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -75,6 +77,13 @@
 					"id" : "10-binary_tree_depth::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-10-binary_tree_depth-Debug-ff36e658f6086244b745.json",
 					"name" : "10-binary_tree_depth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "11-binary_tree_size::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-11-binary_tree_size-Debug-e267b6c47c9b27db7945.json",
+					"name" : "11-binary_tree_size",
 					"projectIndex" : 0
 				},
 				{

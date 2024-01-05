@@ -600,6 +600,61 @@ build 10-binary_tree_depth: C_EXECUTABLE_LINKER__10-binary_tree_depth_Debug CMak
   TARGET_FILE = 10-binary_tree_depth
   TARGET_PDB = 10-binary_tree_depth.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 11-binary_tree_size
+
+
+#############################################
+# Order-only phony target for 11-binary_tree_size
+
+build cmake_object_order_depends_target_11-binary_tree_size: phony || CMakeFiles/11-binary_tree_size.dir
+
+build CMakeFiles/11-binary_tree_size.dir/11-binary_tree_size.c.o: C_COMPILER__11-binary_tree_size_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/11-binary_tree_size.c || cmake_object_order_depends_target_11-binary_tree_size
+  DEP_FILE = CMakeFiles/11-binary_tree_size.dir/11-binary_tree_size.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  OBJECT_FILE_DIR = CMakeFiles/11-binary_tree_size.dir
+
+build CMakeFiles/11-binary_tree_size.dir/11-main.c.o: C_COMPILER__11-binary_tree_size_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/11-main.c || cmake_object_order_depends_target_11-binary_tree_size
+  DEP_FILE = CMakeFiles/11-binary_tree_size.dir/11-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  OBJECT_FILE_DIR = CMakeFiles/11-binary_tree_size.dir
+
+build CMakeFiles/11-binary_tree_size.dir/0-binary_tree_node.c.o: C_COMPILER__11-binary_tree_size_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_11-binary_tree_size
+  DEP_FILE = CMakeFiles/11-binary_tree_size.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  OBJECT_FILE_DIR = CMakeFiles/11-binary_tree_size.dir
+
+build CMakeFiles/11-binary_tree_size.dir/2-binary_tree_insert_right.c.o: C_COMPILER__11-binary_tree_size_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_11-binary_tree_size
+  DEP_FILE = CMakeFiles/11-binary_tree_size.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  OBJECT_FILE_DIR = CMakeFiles/11-binary_tree_size.dir
+
+build CMakeFiles/11-binary_tree_size.dir/binary_tree_print.c.o: C_COMPILER__11-binary_tree_size_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_11-binary_tree_size
+  DEP_FILE = CMakeFiles/11-binary_tree_size.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  OBJECT_FILE_DIR = CMakeFiles/11-binary_tree_size.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11-binary_tree_size
+
+
+#############################################
+# Link the executable 11-binary_tree_size
+
+build 11-binary_tree_size: C_EXECUTABLE_LINKER__11-binary_tree_size_Debug CMakeFiles/11-binary_tree_size.dir/11-binary_tree_size.c.o CMakeFiles/11-binary_tree_size.dir/11-main.c.o CMakeFiles/11-binary_tree_size.dir/0-binary_tree_node.c.o CMakeFiles/11-binary_tree_size.dir/2-binary_tree_insert_right.c.o CMakeFiles/11-binary_tree_size.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/11-binary_tree_size.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11-binary_tree_size
+  TARGET_PDB = 11-binary_tree_size.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -634,7 +689,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth 11-binary_tree_size
 
 # =============================================================================
 # Built-in targets

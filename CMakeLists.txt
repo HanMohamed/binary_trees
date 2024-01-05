@@ -74,3 +74,10 @@ add_executable(10-binary_tree_depth
         2-binary_tree_insert_right.c
         binary_tree_print.c
         )
+add_executable(11-binary_tree_size
+        11-binary_tree_size.c
+        11-main.c
+        0-binary_tree_node.c
+        2-binary_tree_insert_right.c
+        binary_tree_print.c
+        )
