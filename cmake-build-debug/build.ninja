@@ -129,6 +129,55 @@ build 1-binary_tree_insert_left: C_EXECUTABLE_LINKER__1-binary_tree_insert_left_
   TARGET_FILE = 1-binary_tree_insert_left
   TARGET_PDB = 1-binary_tree_insert_left.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-binary_tree_insert_right
+
+
+#############################################
+# Order-only phony target for 2-binary_tree_insert_right
+
+build cmake_object_order_depends_target_2-binary_tree_insert_right: phony || CMakeFiles/2-binary_tree_insert_right.dir
+
+build CMakeFiles/2-binary_tree_insert_right.dir/2-main.c.o: C_COMPILER__2-binary_tree_insert_right_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-main.c || cmake_object_order_depends_target_2-binary_tree_insert_right
+  DEP_FILE = CMakeFiles/2-binary_tree_insert_right.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+
+build CMakeFiles/2-binary_tree_insert_right.dir/2-binary_tree_insert_right.c.o: C_COMPILER__2-binary_tree_insert_right_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_2-binary_tree_insert_right
+  DEP_FILE = CMakeFiles/2-binary_tree_insert_right.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+
+build CMakeFiles/2-binary_tree_insert_right.dir/0-binary_tree_node.c.o: C_COMPILER__2-binary_tree_insert_right_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_2-binary_tree_insert_right
+  DEP_FILE = CMakeFiles/2-binary_tree_insert_right.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+
+build CMakeFiles/2-binary_tree_insert_right.dir/binary_tree_print.c.o: C_COMPILER__2-binary_tree_insert_right_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_2-binary_tree_insert_right
+  DEP_FILE = CMakeFiles/2-binary_tree_insert_right.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-binary_tree_insert_right
+
+
+#############################################
+# Link the executable 2-binary_tree_insert_right
+
+build 2-binary_tree_insert_right: C_EXECUTABLE_LINKER__2-binary_tree_insert_right_Debug CMakeFiles/2-binary_tree_insert_right.dir/2-main.c.o CMakeFiles/2-binary_tree_insert_right.dir/2-binary_tree_insert_right.c.o CMakeFiles/2-binary_tree_insert_right.dir/0-binary_tree_node.c.o CMakeFiles/2-binary_tree_insert_right.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/2-binary_tree_insert_right.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-binary_tree_insert_right
+  TARGET_PDB = 2-binary_tree_insert_right.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -163,7 +212,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right
 
 # =============================================================================
 # Built-in targets

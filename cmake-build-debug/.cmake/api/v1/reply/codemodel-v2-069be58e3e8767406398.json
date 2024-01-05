@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "1-binary_tree_insert_left::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-1-binary_tree_insert_left-Debug-4e079852ec63e10fb491.json",
 					"name" : "1-binary_tree_insert_left",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2-binary_tree_insert_right::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-binary_tree_insert_right-Debug-0cbcf57c3a1dd5a99af4.json",
+					"name" : "2-binary_tree_insert_right",
 					"projectIndex" : 0
 				}
 			]
