@@ -10,3 +10,9 @@
 0	36	1704416580514838905	CMakeFiles/1-binary_tree_insert_left.dir/0-binary_tree_node.c.o	a2ade17b22dce13
 1	48	1704416621371238766	CMakeFiles/1-binary_tree_insert_left.dir/binary_tree_print.c.o	585f316998cb1620
 48	83	1704416621404967185	1-binary_tree_insert_left	ed87c5218385be20
+1	176	1704419729685826625	CMakeFiles/1-binary_tree_insert_left.dir/1-binary_tree_insert_left.c.o	9a5a88a972678c21
+176	267	1704419729775412224	1-binary_tree_insert_left	ed87c5218385be20
+0	38	1704419981397052300	CMakeFiles/1-binary_tree_insert_left.dir/1-binary_tree_insert_left.c.o	9a5a88a972678c21
+38	70	1704419981428514839	1-binary_tree_insert_left	ed87c5218385be20
+0	46	1704420002099843222	CMakeFiles/1-binary_tree_insert_left.dir/1-binary_tree_insert_left.c.o	9a5a88a972678c21
+46	82	1704420002134814858	1-binary_tree_insert_left	ed87c5218385be20
