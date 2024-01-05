@@ -178,6 +178,55 @@ build 2-binary_tree_insert_right: C_EXECUTABLE_LINKER__2-binary_tree_insert_righ
   TARGET_FILE = 2-binary_tree_insert_right
   TARGET_PDB = 2-binary_tree_insert_right.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-binary_tree_delete
+
+
+#############################################
+# Order-only phony target for 3-binary_tree_delete
+
+build cmake_object_order_depends_target_3-binary_tree_delete: phony || CMakeFiles/3-binary_tree_delete.dir
+
+build CMakeFiles/3-binary_tree_delete.dir/3-main.c.o: C_COMPILER__3-binary_tree_delete_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/3-main.c || cmake_object_order_depends_target_3-binary_tree_delete
+  DEP_FILE = CMakeFiles/3-binary_tree_delete.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-binary_tree_delete.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-binary_tree_delete.dir
+
+build CMakeFiles/3-binary_tree_delete.dir/3-binary_tree_delete.c.o: C_COMPILER__3-binary_tree_delete_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/3-binary_tree_delete.c || cmake_object_order_depends_target_3-binary_tree_delete
+  DEP_FILE = CMakeFiles/3-binary_tree_delete.dir/3-binary_tree_delete.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-binary_tree_delete.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-binary_tree_delete.dir
+
+build CMakeFiles/3-binary_tree_delete.dir/0-binary_tree_node.c.o: C_COMPILER__3-binary_tree_delete_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_3-binary_tree_delete
+  DEP_FILE = CMakeFiles/3-binary_tree_delete.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-binary_tree_delete.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-binary_tree_delete.dir
+
+build CMakeFiles/3-binary_tree_delete.dir/2-binary_tree_insert_right.c.o: C_COMPILER__3-binary_tree_delete_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_3-binary_tree_delete
+  DEP_FILE = CMakeFiles/3-binary_tree_delete.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-binary_tree_delete.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-binary_tree_delete.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-binary_tree_delete
+
+
+#############################################
+# Link the executable 3-binary_tree_delete
+
+build 3-binary_tree_delete: C_EXECUTABLE_LINKER__3-binary_tree_delete_Debug CMakeFiles/3-binary_tree_delete.dir/3-main.c.o CMakeFiles/3-binary_tree_delete.dir/3-binary_tree_delete.c.o CMakeFiles/3-binary_tree_delete.dir/0-binary_tree_node.c.o CMakeFiles/3-binary_tree_delete.dir/2-binary_tree_insert_right.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/3-binary_tree_delete.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-binary_tree_delete
+  TARGET_PDB = 3-binary_tree_delete.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -212,7 +261,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete
 
 # =============================================================================
 # Built-in targets
