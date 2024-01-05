@@ -25,4 +25,4 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
 
 
-#endif //BINARY_TREES_BINARY_TREES_H
+#endif
