@@ -60,3 +60,10 @@ add_executable(8-binary_tree_postorder
         0-binary_tree_node.c
         binary_tree_print.c
         )
+add_executable(9-binary_tree_height
+        9-binary_tree_height.c
+        0-binary_tree_node.c
+        2-binary_tree_insert_right.c
+        binary_tree_print.c
+        9-main.c
+        )

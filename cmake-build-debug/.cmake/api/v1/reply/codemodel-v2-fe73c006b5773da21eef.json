@@ -23,7 +23,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9
 					]
 				}
 			],
@@ -113,6 +115,13 @@
 					"id" : "8-binary_tree_postorder::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-8-binary_tree_postorder-Debug-7a97fddadd3c0c8c81d3.json",
 					"name" : "8-binary_tree_postorder",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9-binary_tree_height::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9-binary_tree_height-Debug-4e41c3f002b1f5e0c101.json",
+					"name" : "9-binary_tree_height",
 					"projectIndex" : 0
 				}
 			]
