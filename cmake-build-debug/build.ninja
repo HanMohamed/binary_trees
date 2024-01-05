@@ -655,6 +655,61 @@ build 11-binary_tree_size: C_EXECUTABLE_LINKER__11-binary_tree_size_Debug CMakeF
   TARGET_FILE = 11-binary_tree_size
   TARGET_PDB = 11-binary_tree_size.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 12-binary_tree_leaves
+
+
+#############################################
+# Order-only phony target for 12-binary_tree_leaves
+
+build cmake_object_order_depends_target_12-binary_tree_leaves: phony || CMakeFiles/12-binary_tree_leaves.dir
+
+build CMakeFiles/12-binary_tree_leaves.dir/12-binary_tree_leaves.c.o: C_COMPILER__12-binary_tree_leaves_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/12-binary_tree_leaves.c || cmake_object_order_depends_target_12-binary_tree_leaves
+  DEP_FILE = CMakeFiles/12-binary_tree_leaves.dir/12-binary_tree_leaves.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  OBJECT_FILE_DIR = CMakeFiles/12-binary_tree_leaves.dir
+
+build CMakeFiles/12-binary_tree_leaves.dir/12-main.c.o: C_COMPILER__12-binary_tree_leaves_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/12-main.c || cmake_object_order_depends_target_12-binary_tree_leaves
+  DEP_FILE = CMakeFiles/12-binary_tree_leaves.dir/12-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  OBJECT_FILE_DIR = CMakeFiles/12-binary_tree_leaves.dir
+
+build CMakeFiles/12-binary_tree_leaves.dir/0-binary_tree_node.c.o: C_COMPILER__12-binary_tree_leaves_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_12-binary_tree_leaves
+  DEP_FILE = CMakeFiles/12-binary_tree_leaves.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  OBJECT_FILE_DIR = CMakeFiles/12-binary_tree_leaves.dir
+
+build CMakeFiles/12-binary_tree_leaves.dir/2-binary_tree_insert_right.c.o: C_COMPILER__12-binary_tree_leaves_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_12-binary_tree_leaves
+  DEP_FILE = CMakeFiles/12-binary_tree_leaves.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  OBJECT_FILE_DIR = CMakeFiles/12-binary_tree_leaves.dir
+
+build CMakeFiles/12-binary_tree_leaves.dir/binary_tree_print.c.o: C_COMPILER__12-binary_tree_leaves_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_12-binary_tree_leaves
+  DEP_FILE = CMakeFiles/12-binary_tree_leaves.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  OBJECT_FILE_DIR = CMakeFiles/12-binary_tree_leaves.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12-binary_tree_leaves
+
+
+#############################################
+# Link the executable 12-binary_tree_leaves
+
+build 12-binary_tree_leaves: C_EXECUTABLE_LINKER__12-binary_tree_leaves_Debug CMakeFiles/12-binary_tree_leaves.dir/12-binary_tree_leaves.c.o CMakeFiles/12-binary_tree_leaves.dir/12-main.c.o CMakeFiles/12-binary_tree_leaves.dir/0-binary_tree_node.c.o CMakeFiles/12-binary_tree_leaves.dir/2-binary_tree_insert_right.c.o CMakeFiles/12-binary_tree_leaves.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/12-binary_tree_leaves.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 12-binary_tree_leaves
+  TARGET_PDB = 12-binary_tree_leaves.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -689,7 +744,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth 11-binary_tree_size
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth 11-binary_tree_size 12-binary_tree_leaves
 
 # =============================================================================
 # Built-in targets
