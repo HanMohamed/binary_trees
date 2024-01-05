@@ -8,5 +8,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/7-binary_tree_inorder.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/8-binary_tree_postorder.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/9-binary_tree_height.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/10-binary_tree_depth.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/rebuild_cache.dir
