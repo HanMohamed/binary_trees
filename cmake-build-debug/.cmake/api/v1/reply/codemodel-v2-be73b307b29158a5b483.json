@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,7 +59,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -111,6 +113,13 @@
 					"id" : "14-binary_tree_balance::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-14-binary_tree_balance-Debug-343a4df568bd46cebc91.json",
 					"name" : "14-binary_tree_balance",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "15-binary_tree_is_full::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-15-binary_tree_is_full-Debug-d340e13b26050c269219.json",
+					"name" : "15-binary_tree_is_full",
 					"projectIndex" : 0
 				},
 				{

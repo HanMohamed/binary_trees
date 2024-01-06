@@ -103,4 +103,10 @@ add_executable(14-binary_tree_balance
         2-binary_tree_insert_right.c
         binary_tree_print.c
         )
-
+add_executable(15-binary_tree_is_full
+        15-binary_tree_is_full.c
+        15-main.c
+        0-binary_tree_node.c
+        2-binary_tree_insert_right.c
+        binary_tree_print.c
+        )
