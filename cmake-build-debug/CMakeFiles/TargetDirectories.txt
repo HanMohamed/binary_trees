@@ -12,5 +12,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/11-binary_tree_size.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/12-binary_tree_leaves.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/13-binary_tree_nodes.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/14-binary_tree_balance.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug/CMakeFiles/rebuild_cache.dir
