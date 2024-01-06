@@ -124,3 +124,10 @@ add_executable(17-binary_tree_sibling
         2-binary_tree_insert_right.c
         binary_tree_print.c
         )
+add_executable(18-binary_tree_uncle
+        18-binary_tree_uncle.c
+        18-main.c
+        0-binary_tree_node.c
+        2-binary_tree_insert_right.c
+        binary_tree_print.c
+        )

@@ -991,6 +991,61 @@ build 17-binary_tree_sibling: C_EXECUTABLE_LINKER__17-binary_tree_sibling_Debug 
   TARGET_FILE = 17-binary_tree_sibling
   TARGET_PDB = 17-binary_tree_sibling.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 18-binary_tree_uncle
+
+
+#############################################
+# Order-only phony target for 18-binary_tree_uncle
+
+build cmake_object_order_depends_target_18-binary_tree_uncle: phony || CMakeFiles/18-binary_tree_uncle.dir
+
+build CMakeFiles/18-binary_tree_uncle.dir/18-binary_tree_uncle.c.o: C_COMPILER__18-binary_tree_uncle_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/18-binary_tree_uncle.c || cmake_object_order_depends_target_18-binary_tree_uncle
+  DEP_FILE = CMakeFiles/18-binary_tree_uncle.dir/18-binary_tree_uncle.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  OBJECT_FILE_DIR = CMakeFiles/18-binary_tree_uncle.dir
+
+build CMakeFiles/18-binary_tree_uncle.dir/18-main.c.o: C_COMPILER__18-binary_tree_uncle_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/18-main.c || cmake_object_order_depends_target_18-binary_tree_uncle
+  DEP_FILE = CMakeFiles/18-binary_tree_uncle.dir/18-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  OBJECT_FILE_DIR = CMakeFiles/18-binary_tree_uncle.dir
+
+build CMakeFiles/18-binary_tree_uncle.dir/0-binary_tree_node.c.o: C_COMPILER__18-binary_tree_uncle_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/0-binary_tree_node.c || cmake_object_order_depends_target_18-binary_tree_uncle
+  DEP_FILE = CMakeFiles/18-binary_tree_uncle.dir/0-binary_tree_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  OBJECT_FILE_DIR = CMakeFiles/18-binary_tree_uncle.dir
+
+build CMakeFiles/18-binary_tree_uncle.dir/2-binary_tree_insert_right.c.o: C_COMPILER__18-binary_tree_uncle_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/2-binary_tree_insert_right.c || cmake_object_order_depends_target_18-binary_tree_uncle
+  DEP_FILE = CMakeFiles/18-binary_tree_uncle.dir/2-binary_tree_insert_right.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  OBJECT_FILE_DIR = CMakeFiles/18-binary_tree_uncle.dir
+
+build CMakeFiles/18-binary_tree_uncle.dir/binary_tree_print.c.o: C_COMPILER__18-binary_tree_uncle_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/binary_tree_print.c || cmake_object_order_depends_target_18-binary_tree_uncle
+  DEP_FILE = CMakeFiles/18-binary_tree_uncle.dir/binary_tree_print.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  OBJECT_FILE_DIR = CMakeFiles/18-binary_tree_uncle.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 18-binary_tree_uncle
+
+
+#############################################
+# Link the executable 18-binary_tree_uncle
+
+build 18-binary_tree_uncle: C_EXECUTABLE_LINKER__18-binary_tree_uncle_Debug CMakeFiles/18-binary_tree_uncle.dir/18-binary_tree_uncle.c.o CMakeFiles/18-binary_tree_uncle.dir/18-main.c.o CMakeFiles/18-binary_tree_uncle.dir/0-binary_tree_node.c.o CMakeFiles/18-binary_tree_uncle.dir/2-binary_tree_insert_right.c.o CMakeFiles/18-binary_tree_uncle.dir/binary_tree_print.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/18-binary_tree_uncle.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 18-binary_tree_uncle
+  TARGET_PDB = 18-binary_tree_uncle.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1025,7 +1080,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/binary_trees/cmake-build-debug
 
-build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth 11-binary_tree_size 12-binary_tree_leaves 13-binary_tree_nodes 14-binary_tree_balance 15-binary_tree_is_full 16-binary_tree_is_perfect 17-binary_tree_sibling
+build all: phony 0-binary_tree_node 1-binary_tree_insert_left 2-binary_tree_insert_right 3-binary_tree_delete 4-binary_tree_is_leaf 5-binary_tree_is_root 6-binary_tree_preorder 7-binary_tree_inorder 8-binary_tree_postorder 9-binary_tree_height 10-binary_tree_depth 11-binary_tree_size 12-binary_tree_leaves 13-binary_tree_nodes 14-binary_tree_balance 15-binary_tree_is_full 16-binary_tree_is_perfect 17-binary_tree_sibling 18-binary_tree_uncle
 
 # =============================================================================
 # Built-in targets
