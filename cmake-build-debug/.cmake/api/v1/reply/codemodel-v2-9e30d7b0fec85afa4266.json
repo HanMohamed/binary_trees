@@ -30,7 +30,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -60,7 +61,8 @@
 						12,
 						13,
 						14,
-						15
+						15,
+						16
 					]
 				}
 			],
@@ -120,6 +122,13 @@
 					"id" : "15-binary_tree_is_full::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-15-binary_tree_is_full-Debug-d340e13b26050c269219.json",
 					"name" : "15-binary_tree_is_full",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "16-binary_tree_is_perfect::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-16-binary_tree_is_perfect-Debug-a5b9a9ddb9eccbf8b874.json",
+					"name" : "16-binary_tree_is_perfect",
 					"projectIndex" : 0
 				},
 				{
