@@ -117,4 +117,10 @@ add_executable(16-binary_tree_is_perfect
         2-binary_tree_insert_right.c
         binary_tree_print.c
         )
-
+add_executable(17-binary_tree_sibling
+        17-binary_tree_sibling.c
+        17-main.c
+        0-binary_tree_node.c
+        2-binary_tree_insert_right.c
+        binary_tree_print.c
+        )
